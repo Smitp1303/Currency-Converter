@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 400px;
+  max-width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.custom-radio {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.custom-radio input[type='radio'] {
+  display: none;
+}
+
+.custom-radio label {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #007bff;
+  border: 1px solid #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.custom-radio input[type='radio']:checked + label {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-submit {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result p {
+  font-size: 20px;
+  font-weight: bold;
+}
